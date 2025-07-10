@@ -1,0 +1,120 @@
+body{
+    font-family:  Arial;
+    background-size: contain ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    scroll-snap-type: mandatory;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: rgb(9, 18, 89);
+    padding: 5px 5px;
+
+}
+
+
+.navbar a {
+    margin-right: auto;
+    text-decoration: none;
+    color: azure;
+    text-align: center;
+    padding: 10px 20px ;
+    font-family: 'Times New Roman';
+    font: bold;
+    font-size: large;
+   
+    
+}
+
+.navbar a:hover{
+    color: white;
+    font-size: 19px;
+}
+.logo img {
+    padding: 0px 20px;
+    border-radius: 55%;
+}
+.mov_text{
+    color: black;
+    padding: 10px;
+    padding-bottom: 15px;
+    font-family: Georgia;
+    font:bold;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+   
+
+}
+.mov_text a {
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    
+
+
+}
+.mov_text a:hover{
+    background-color: rgb(4, 13, 65);
+    color: azure;
+    padding: 15px;
+    border-radius: 50px;
+    background-size: contain;
+    
+   
+}
+.mov_text img{
+    border-radius: 55px;
+    top: 50%;
+    
+}
+.staffs {
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    padding: 10px 20px;
+    
+}
+
+.staffs a{
+    padding: 10px 20px;
+    align-items: center;
+    text-align: center;
+    margin-right: auto;
+    font-family: 'Times New Roman';
+    font-size: larger;
+    font-weight: 600;
+}
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#btnContainer{
+    text-align: center;
+}
+.button{
+    font-family: 'Times New Roman';
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(228, 67, 148);
+    border-color: white;
+    border-radius: 15px;
+    transition: background-color  0.25s;
+}
+.button:hover{
+    color: rgb(245, 245, 245);
+    background-color: rgb(64, 0, 124);
+    border-radius: 50px;
+}
